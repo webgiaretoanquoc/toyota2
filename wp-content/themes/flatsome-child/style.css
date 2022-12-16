@@ -1,0 +1,207 @@
+/*
+Theme Name: Flatsome Child
+Description: NamKiem developed for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.11.3
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+
+
+
+
+#header-contact li>a>i+span{text-transform:none; font-size:14px}
+.header-main .nav > li > a {
+	line-height: 18px;
+	text-align: center;
+	font-weight: 500; 
+	font-size: 15px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+.header-search-form input[type='search']{height: 40px;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+	border: 1px solid #cb1d1e; font-size:15px;}
+.header-search-form .searchform .button.icon {
+	margin: 0;
+	height: 40px;
+	width: 40px;
+	background: #cb1d1e;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+}.nav-dropdown{padding:10px 0 10px}
+.nav-dropdown.nav-dropdown-bold>li>a:hover,.nav-dropdown.nav-dropdown-bold.dark>li>a:hover{color: #cb1d1e !important;border-radius:3px; 
+	background-color: #ffffff !important;
+	border-radius: 0;
+	font-weight: 500;}
+.slider-nav-light .flickity-prev-next-button{ border-radius: 3px;   background: black;}.slider-nav-circle .flickity-prev-next-button svg, .slider-nav-circle .flickity-prev-next-button .arrow{    border: 0;}
+.slider .flickity-prev-next-button:hover svg, .slider .flickity-prev-next-button:hover .arrow{background: black}
+.danh-muc .category-title{    display: inline-block;    margin-bottom: 10px;
+	width: 100%;}
+.danh-muc .category-title h3{    display: block;
+	width: 25%;
+	float: left;
+	margin: 0 auto;
+	text-align: left; padding-left:20px;
+	line-height: 46px;
+	font-size: 18px;
+	text-transform: uppercase;
+	letter-spacing: 0;
+	font-weight: 500;
+	color: #fff;
+	background: #cb1d1e;}
+.danh-muc .category-title h3:after{content: '';
+	display: inline;
+	float: right;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0 46px 25px;
+	border-color:#f4f4f4 transparent #f4f4f4 transparent;}
+.danh-muc .sub-menu{display: inline-block;
+	float: right;
+	width: 75%;
+	background: #f4f4f4;}
+.danh-muc .sub-menu ul { text-align: right;
+	padding-right: 10px;   margin: 0;
+	list-style: none;
+}
+.danh-muc .sub-menu ul li{    margin-bottom: 0;display: inline-block;
+	padding: 0 6px;
+}
+.danh-muc .sub-menu ul li a{font-size: 16px;
+	font-weight: 500;
+	text-transform: none;
+	line-height: 46px;
+	color: #FF0000;}
+.danh-muc .sub-menu ul li a:hover{color: #cb1d1e}
+.row-banner .col{padding-bottom:0}
+.product-small .product-title{font-size:15px; font-weight:normal; margin-bottom:8px}
+.product-small .product-title a{color:black}
+.product-small{border:1px solid #eaeaea}
+.product-small .price span.amount {
+	white-space: nowrap;
+	color: #f00;
+	font-weight: 500;
+	font-size: 15px;}
+.badge-container{margin-top:10px; margin-left:10px}
+.badge-container .badge-inner{border-radius:99px}
+.danh-muc .col{padding-bottom:0}
+.product-small{margin-bottom:20px}
+.danh-muc{padding-bottom:0 !important}
+.footer-block{background:url(../../uploads/2019/09/bg-2.jpg); background-repeat:repeat; border-top: 3px solid #cb1d1e;}
+b,strong{font-weight:500}
+.single_add_to_cart_button{font-weight:500; text-transform:none; letter-spacing:0}
+.product-info span.amount{color: red; font-weight:500}
+.product-info .product-title{font-size:22px}
+.product-info .cart{margin-bottom:10px}
+.product-info .product_meta{font-size:15px}
+.product-info{padding-top:0}
+.product-footer .product-tabs{background:#ececec}
+.product-footer .product-tabs li{margin:0}
+.product-footer .product-tabs li a{padding:10px 15px; font-size:16px; font-weight:500; text-transform:none; background: #e2e2e2}
+.product-footer .product-tabs li.active>a{background:red; color: white}
+.related-products-wrapper .product-section-title{    letter-spacing: 0;
+	color: white;
+	padding: 9px 10px;
+	background: red;
+	margin-bottom: 20px;}.related-products-wrapper .product-small{border:0; margin-bottom:0}
+.related-products-wrapper .product-small .col-inner{border:1px solid #ececec}
+#product-sidebar{padding-right:0; border-right:0}
+.single-product .product-short-description{font-size:14px}
+.post-sidebar{padding-right:15px}
+#product-sidebar .widget_nav_menu ul, #shop-sidebar .widget_nav_menu ul, .post-sidebar .widget_nav_menu ul{    background: #f7f4f4;}
+#product-sidebar .widget_nav_menu ul .menu-cha, #shop-sidebar .widget_nav_menu ul .menu-cha,.post-sidebar .widget_nav_menu ul .menu-cha{background:#cb1d1e !important; color: white; padding-left:15px !important}
+#product-sidebar .widget_nav_menu ul .menu-cha a, #shop-sidebar .widget_nav_menu ul .menu-cha a, .post-sidebar .widget_nav_menu ul .menu-cha a{text-transform:uppercase; color: white;}
+#product-sidebar .widget_nav_menu ul li a, #shop-sidebar .widget_nav_menu ul li a, .post-sidebar .widget_nav_menu ul li a{color: black; width:100%}
+#product-sidebar .widget_nav_menu ul li a:hover, #shop-sidebar .widget_nav_menu ul li a:hover, .post-sidebar .widget_nav_menu ul li a:hover{color: red}
+#product-sidebar .widget_nav_menu ul li:hover, #shop-sidebar .widget_nav_menu ul li:hover, .post-sidebar .widget_nav_menu ul li:hover{background: white}
+#product-sidebar .widget_nav_menu ul .menu-cha:hover, #shop-sidebar .widget_nav_menu ul .menu-cha:hover, .shop-sidebar .widget_nav_menu ul .menu-cha:hover{background: #525252 !important}
+#product-sidebar .widget_nav_menu ul .menu-cha:hover a, #shop-sidebar .widget_nav_menu ul .menu-cha:hover a, .shop-sidebar .widget_nav_menu ul .menu-cha:hover a{color:white}
+#product-sidebar .is-divider, #shop-sidebar .is-divider, .shop-sidebar .is-divider{    height: 1px; max-width: 100%;}
+#product-sidebar span.widget-title, .shop-sidebar span.widget-title, .shop-sidebar span.widget-title{color:white}
+.shop-container .product-small{border:0; padding-bottom:0}
+.shop-container .product-small .box{border: 1px solid #eaeaea}
+.shop-page-title{background: #f1f1f1;
+	padding-bottom: 15px;}
+.blog-single .large-9{padding-left:0}
+.blog-single .is-divider{height
+	:1px; max-width:100%}
+.entry-content{padding-top:0}
+footer.entry-meta{font-size:15px}
+.flatsome_recent_posts li a{color:black}
+span.widget-title{border:1px solid #b40516; margin-bottom:0; background: linear-gradient(#ec182d,#aa0112);
+	color: #fff;
+	font-size: 17px;
+	text-transform: uppercase;
+	font-weight: 500;
+	padding: 12.5px;
+	border-radius: 5px 5px 0 0;
+	text-align: center;
+
+	display: block;
+	width: 100%;} 
+.page-left-sidebar .large-3{padding-right:10px; border-right:0}
+.widget .is-divider{display:none}
+.recent-blog-posts-li .badge-inner{border-radius:99%}
+
+.widget_nav_menu .menu li a{    display: block;
+	width: 100%; text-transform:uppercase}
+.widget_nav_menu .menu li a{background-image:url(/wp-content/uploads/2019/03/dot.png;); background-repeat:no-repeat; background-position-y: center; padding-left:15px}
+.widget_nav_menu .menu li{    padding: 3px 0px 3px 12px;
+	background: url(/wp-content/uploads/2019/03/bg-slidebar-menu-1.jpg) no-repeat;
+	background-size: cover;
+	color: #ffffff;}
+.flatsome_recent_posts ul{border:1px solid #ececec}
+.flatsome_recent_posts ul li{padding: 0 12px}
+.thong-bao{background: #fff0bf;
+	border: 1px dashed #d26e4b;
+	padding: 10px;
+	color: #f20017;}
+.blog-archive .large-3{padding-right:0}
+a.devvn_buy_now_style, .devvn-popup-title, .popup-customer-info-group .devvn-order-btn{max-width:100%; background: #cb1d1e !important;}
+.dia-chi-cong-ty p{margin-bottom:0}
+.dia-chi-cong-ty h3{margin-bottom:0;    font-size: 17px;}
+.dia-chi-cong-ty{background: #fafafa;
+	padding: 10px;}
+.thong-tin-xe ul li{background: url(/wp-content/uploads/2019/03/dot.png);
+	background-repeat: no-repeat;
+	background-position-y: center;
+	margin-bottom: 0;
+	padding: 7px 15px;
+	padding-left: 15px;
+	list-style: none;
+	margin-left: 0;}
+.thong-tin-xe ul li .value{width: 76%;
+	display: inline-block;}
+.thong-tin-xe ul li .label{font-weight: 500;width:24%; display:inline-block}
+.thong-tin-xe ul li:nth-child(odd){background-color: #fafafa;
+}
+.dang-ky-nhan-thong-tin{background:#e3e3e3; padding:15px}
+.dang-ky-nhan-thong-tin .row-2 .right{width:50%; float:left; display:inline-block; padding-left:6px}
+.dang-ky-nhan-thong-tin .row-2{width:100%; display:inline-block; clear:both;}
+.dang-ky-nhan-thong-tin .row-2 .left{width: 50%;float:left;
+	padding-right: 6px;
+	display: inline-block;}
+.dang-ky-nhan-thong-tin h3{    margin-bottom: 0;}
+input[type='email'], input[type='search'], input[type='number'], input[type='url'], input[type='tel'], input[type='text'], textarea{margin-bottom:13px}
+.dang-ky-nhan-thong-tin input[type='submit']{margin:0}
+.bao-gia{position:fixed; bottom:10px; right:10px; z-index:9999}
+.back-to-top{bottom: 112px !important;
+	background: #c30f0f !important;
+	border: 0 !important;
+	color: white !important;}
+
+@media only screen and (max-width: 48em) {
+	/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+
+
+	.danh-muc .category-title h3, .danh-muc .sub-menu{    width: 100%;}
+	.danh-muc .sub-menu ul li{margin-left:0}
+	.danh-muc .sub-menu ul li a{line-height:30px}
+	.danh-muc .sub-menu ul{text-align:left}
+	.danh-muc .col .post-item{flex-basis:50%; max-width:50%}
+}
